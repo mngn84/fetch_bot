@@ -1,0 +1,17 @@
+{
+  "name": "fetch_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.mjs",
+    "start:dev": "nodemon bot.mjs"
+  },
+  "keywords": [],
+  "author": "mngn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.34.1"
+  }
+}
