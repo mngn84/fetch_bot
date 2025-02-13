@@ -1,4 +1,4 @@
-import { Bot, webhookCallback } from "grammy";
+import { Bot } from "grammy";
 import "dotenv/config"
 
 const bot = new Bot(process.env.BOT_TOKEN);
@@ -65,4 +65,4 @@ bot.catch((err) => {
     console.error(err);
 });
 
-bot.start();
+export { bot };
